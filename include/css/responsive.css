@@ -2,6 +2,7 @@ body {
     color: white;
     background-color: #3a3e43;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media (max-width: 480px) {

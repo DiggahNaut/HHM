@@ -32,7 +32,7 @@ $(document).ready(function() {
         });
 
         if (cards == "" || typeof(cards) == "string") {
-            console.log("Some error appeared.");
+            alert("Inner error appeared. We're sorry.");
         } else {
             $("div").remove(".hhm-card");
             for (var i = 0; cards.length > i; i++)
