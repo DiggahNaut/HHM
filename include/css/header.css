@@ -1,0 +1,85 @@
+.header {
+    background-color: #2c3035;
+    padding-top: 25px;
+}
+
+.header-logo {
+    background: url("/include/images/HoneyHuntersLogo.png") no-repeat left top;
+    background-size: 200px 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.contact {
+    background: url("/include/images/HoneyHuntersContact.png") no-repeat center;
+    background-size: 180px 180px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+/*replace contact with contact-without-centering for perfection but no centering for entire page*/
+.contact-without-centering {
+    background: url("/include/images/HoneyHuntersContact.png") no-repeat;
+    background-size: 180px 180px;
+    height: 200px;
+    margin-top: 50px;
+    background-position-x: 226px;
+}
+
+.form-input-email-margin {
+    margin-top: 47px;
+}
+
+.form-button-custom-margin {
+    margin-left: 80.333333% !important;
+}
+
+.form-button-custom-style {
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: #bd383a;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 44px;
+}
+
+.form-control {
+    color: white !important;
+}
+
+.form-control:focus {
+    border-color: #503236 !important;
+    box-shadow: none;
+}
+
+#feedback {
+    text-align: center;
+    color: #ef2629;
+}
+
+.btn-primary {
+    border-color: transparent;
+}
+
+input[type="text"], textarea {
+    background: transparent !important;
+    border-color: #45484c !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #a23132 !important;
+    border-color: transparent !important;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    background-color: #a23132;
+    border-color: transparent !important;
+}
+
+.important-red-dot {
+    color: #be393b;
+}

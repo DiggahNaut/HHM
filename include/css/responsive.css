@@ -1,0 +1,35 @@
+body {
+    color: white;
+    background-color: #3a3e43;
+    font-size: 18px;
+}
+
+@media (max-width: 480px) {
+    .form-input-email-margin {
+        margin-top: 16px;
+    }
+    .form-button-custom-margin {
+        margin-left: 0 !important;
+    }
+    .hhm-card {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 480px) {
+    .hhm-card {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px !important;
+    }
+    .hhm-card {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

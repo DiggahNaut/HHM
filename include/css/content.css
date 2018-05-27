@@ -1,0 +1,72 @@
+.content {
+    background-color: #f5f5f6;
+    min-height: 400px;
+    color: #36404d;
+}
+
+.content-comment-header {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+#place-for-cards {
+    padding-bottom: 50px;
+}
+
+.hhm-card {
+    height: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.card-email {
+    padding-top: 10px;
+    height: 50px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+.odd-card-comment {
+    color: #7e7e8a;
+}
+.even-card-comment {
+    color: #818e81;
+}
+
+.odd-card-header {
+    background-color: #4a586b;
+    height: 40px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.odd-card-body {
+    background-color: #e8edf2;
+    height: 150px;
+    color: #7e7e8a;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.even-card-header {
+    background-color: #57ac51;
+    height: 40px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.even-card-body {
+    background-color: #deebde;
+    height: 150px;
+    color: #57ac51;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+    .col-md-3 {
+        max-width: 23%;
+    }
+}
